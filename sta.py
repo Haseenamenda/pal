@@ -1,21 +1,21 @@
 def midchenge():
-	s=input()
-	n=len(s)
-	l=list(s)
-	s=''
+	k=input()
+	n=len(k)
+	l=list(k)
+	k=''
 	if n%2!=0:
 		for i in range(n//2):
-			s+=l[i]
-		s+='*'
+			k+=l[i]
+		k+='*'
 		j=n//2+1
 	else:
 		for i in range(n//2-1):
-			s+=l[i]
-		s+='**'
+			k+=l[i]
+		k+='**'
 		j=n//2+1
 	for i in range(j,n):
-		s+=l[i]
-	print(s)
+		k+=l[i]
+	print(k)
 try:
 	midchenge()
 except:
